@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+- `sandbox/`: runner that starts AI Observer in a locked-down Docker container without internet access, with the UI and OTLP published on loopback only (see `sandbox/README.md`).
+
 ## [0.7.0] - 2026-11-06
 
 ### Upgrade notes
